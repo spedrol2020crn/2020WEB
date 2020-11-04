@@ -1,0 +1,145 @@
+body{
+  background-color:skyblue;
+  margin:0;
+  font-family: Futura Md BT;
+}
+
+div{
+  background-color: red;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+li{
+  display: inline-block;
+  height: 30px;
+  padding: 5px;
+  margin: 0;
+  line-height: 30px;
+}
+
+img{
+  margin: 5px 0 2px 5px;
+}
+
+ul{
+  margin: -35px 0 0 170px;
+}
+
+li:hover{
+  background-color: #6C3;
+
+}
+
+h1, p{
+  width: 350px;
+  padding: 25px;
+}
+
+h1{
+  font-family: Futura;
+  margin: 0;
+}
+
+p{
+  padding: 0 25px;
+  margin: 0;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+#primera{
+  height:40px;
+}
+
+#segona{
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+
+
+}
+
+#tercera{
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+
+
+}
+
+#quarta{
+  height: 500px;
+  background-image: url(img/curator-short.png);
+  color: white;
+
+}
+
+#cinquena{
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#sisena{
+  height: 525px;
+  background-image: url(img/mobile-share.png);
+}
+
+#setena{
+  height: 643px;
+  background-image: url(img/anywhere.png);
+}
+
+#vuitena{
+  height: 200px;
+  text-align: center;
+  padding: 25px 10px 25px 10px;
+}
+
+#boto{
+  /*COLORS*/
+  background-color: green;
+  color: yellowgreen;
+  /*MIDES*/
+  height: 70px;
+  width: 70px;
+  /*POSICIONAMENT*/
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  /*CAIXA*/
+  border: solid 5px yellowgreen;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px green;
+  /*TEXT*/
+  text-align: center;
+  line-height: 90px;
+  font-size: 60px;
+
+  /* background-image: url(img/allinone.jpg);
+  background-position: -200px 30px;
+  background-size: 80px;
+  opacity: 0.5;*/
+  }
+
+.blanca{
+  background-color: #FFF;
+}
+
+.verda{
+  background-color: #6C3;
+
+}
+
+.fosca{
+  background-color: #333;
+
+}
+
+.clara{
+background-color: #EEECEE;
+}
