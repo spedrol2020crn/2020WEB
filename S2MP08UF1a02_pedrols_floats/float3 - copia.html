@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Sara Pedrol">
+    <title>float</title>
+    <style media="screen">
+      body {
+        background-color: teal;
+        font-size: 15px;
+        color: white;
+        font-family: futura;
+        text-align: justify;
+        margin: 0 auto;
+      }
+
+      .quadre1{
+        background-image: linear-gradient( to right, red, orange);
+        padding: 10px;
+
+        border-radius: 12px;
+        width: 45%;
+        float: left;
+        margin: 10px;
+      }
+
+      .quadre1:hover{
+        background-image: linear-gradient( to right, red, orange);
+        padding: 10px;
+        opacity: 0.4;
+        border-radius: 12px;
+        width: 45%;
+        float: left;
+        margin: 10px;
+
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .quadre2{
+
+        width: 45%;
+        float: left;
+        margin: 5px;
+      }
+
+      .quadre3{
+
+        width: 45%;
+        float: left;
+        margin: 5px;
+        clear: both;
+      }
+
+      .quadre4{
+        width: 49%;
+        float: left;
+        margin: 5px;
+        margin-top: -8px;
+      }
+
+      .quadre5{
+        width: 49%;
+        float: left;
+        margin: 5px;
+
+      }
+
+
+      img{
+        width: 220px;
+        margin: 0 10px 10px 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px 10px -2px yellow;
+
+      }
+      .esquerra{
+        float: left;
+      }
+
+      .dreta{
+        float: right;
+      }
+
+      .capitular{
+        float: left;
+        width: 95px;
+        margin: 0 10px 0 0;
+      }
+
+      .meitat{
+        width: 49%;
+      }
+
+      h1{
+        clear: both;
+        font-family: chapaza;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="quadre1">
+      <a href="https://www.youtube.com/channel/UCWv10Q9JJ0ztqSTSs7GRxaw"  target="_blank">
+      <h1>Float Left</h1>
+      <img src="img/1.jpg" class="esquerra">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </a>
+    </div>
+
+    <div class="quadre2">
+      <h1>Float Right</h1>
+      <img src="img/2.jpg" class="dreta">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+
+    <div class="quadre3">
+      <h1>Capitular</h1>
+      <img src="img/3.jpg" class="capitular">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+
+    <div class="quadre4">
+      <h1>Columnes</h1>
+        <p class="esquerra meitat">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+
+      <div class="quadre5">
+        <p class="dreta meitat">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+
+  </body>
+</html>
