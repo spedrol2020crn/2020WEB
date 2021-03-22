@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Retrat</title>
+    <link rel="stylesheet" href="estils.css">
+  </head>
+  <body>
+
+
+    <div class="cara">
+      <div class="cabell"></div>
+      <div class="cabl"></div>
+      <div class="cabr"></div>
+      <div class="cabl2"></div>
+      <div class="lloc1"></div>
+      <div class="cabr2"></div>
+      <div class="lloc2"></div>
+
+      <div class="celles1"></div>
+      <div class="celles2"></div>
+
+
+      <div class="ulls">
+        <div class="ullsl">
+
+            <div class="colorl">
+              <div class="pupilal"></div>
+              <div class="blancl"></div>
+            </div>
+
+        </div>
+
+        <div class="ullsr">
+          <div class="colorr">
+            <div class="pupilar"></div>
+            <div class="blancr"></div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        var colorl = document.getElementsByClassName("colorl");
+        document.onmousemove = function(){
+          var x = event.clientX * 100 / window.innerWidth + "%";
+          var y = event.clientY * 100 / window.innerHeight + "%";
+          //event.clientX => get the horizontal coordinate of the onmousemove
+          //event.clientY => get the Vertical coordinate of the onmousemove
+          //window.innerWidth => get the browser width
+          //window.innerHeight => get the browser height
+
+          for(var i=0;i<2;i++){
+            colorl[i].style.left = x;
+            colorl[i].style.top = y;
+            colorl[i].style.transform = "translate(-"+x+",-"+y+")";
+          }
+        }
+
+      </script>
+
+      <div class="nas">
+        <div class="nasmig"></div>
+        <div class="nasl"></div>
+        <div class="nasr"></div>
+      </div>
+
+        <div class="costatnasl"></div>
+      <div class="costatnasr"></div>
+
+      <div class="cami"></div>
+      <div class="coll"></div>
+
+      <div class="llavis">
+        <div class="llavsup">
+          <div class="tril"></div>
+          <div class="trir"></div>
+          <div class="vola1"></div>
+          <div class="rodo"></div>
+        </div>
+
+        <div class="llavinf"></div>
+        <div class="vola2"></div>
+
+      </div>
+
+      <div class="entra"></div>
+
+      <div class="gafas">
+        <div class="mon1">
+        </div>
+        <div class="mon2">
+        </div>
+      </div>
+
+      <div class="papada"></div>
+
+
+  </div>
+
+
+
+
+  </body>
+</html>
