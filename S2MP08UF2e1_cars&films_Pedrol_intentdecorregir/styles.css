@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(img/fons.jpg);
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+.cap{
+  width: 960px;
+  height: 589px;
+  background: transparent;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.cap h1{
+  text-align: center;
+  font-size: 4rem;
+  line-height: 2rem;
+}
+.cos{
+  width: 960px;
+  height: 780px;
+  background: transparent;
+  margin: 0 auto;
+  perspective: 900px;
+  perspective-origin: left;
+}
+
+.peu{
+  width: 960px;
+  background: transparent;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, p{
+  margin: 0;
+}
+img{
+  width: 300px;;
+}
+
+.quadricula{
+  width: 300px;
+  height: 240px;
+  margin: 10px;
+  background-size: 300px 240px;
+  float: left;
+  position: relative;
+  opacity: 0.5;
+}
+
+/*#pulp_fiction{
+  background: url(img/small/small_pulp.jpg) no-repeat;
+}
+
+#taxi_driver{
+  background: url(img/small/small_taxi.jpg);
+}
+
+#gold_finger{
+  background: url(img/small/small_back.jpg);
+}
+
+#ghost_busters{
+  background: url(img/small/small_ghost.jpg);
+}
+
+#mr_bean{
+  background: url(img/small/small_bean.jpg);
+}
+
+#back_to_the_future{
+  background: url(img/small/small_back.jpg);
+}
+
+#knight_rider{
+  background: url(img/small/small_rider.jpg);
+}
+
+#the_a-team{
+  background: url(img/small/small_team.jpg);
+}
+
+#breaking_bad{
+  background: url(img/small/small_break.jpg);
+}*/
+
+.quadricula:hover{
+  opacity: 1;
+  transform: rotateY(25deg);
+  transform-origin: left;
+  transition: 1s;
+}
+
+.quadricula p{
+  background: white;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  position: absolute;
+  top: 200px;
+}
+
+span{
+  color: grey;
+}
+
+.animacio{
+  height: 589px;
+  background-size: auto;
+  animation: cotxes 19s infinite;
+}
+
+@keyframes cotxes{
+  0%{
+    background-image: url(img/ani/back.png);
+  }
+
+  11.1%{
+    background-image: url(img/ani/bean.png);
+  }
+
+  22.2%{
+    background-image: url(img/ani/bond.png);
+  }
+  33.3%{
+    background-image: url(img/ani/break.png);
+  }
+  44.4%{
+    background-image: url(img/ani/ghost.png);
+  }
+  55.5%{
+    background-image: url(img/ani/pulp.png);
+  }
+  66.6%{
+    background-image: url(img/ani/rider.png);
+  }
+  77.7%{
+    background-image: url(img/ani/taxi.png);
+  }
+  88.8%{
+    background-image: url(img/ani/team.png);
+  }
+
+  99.9%{
+    background-image: url(img/ani/rider.png);
+  }
+}

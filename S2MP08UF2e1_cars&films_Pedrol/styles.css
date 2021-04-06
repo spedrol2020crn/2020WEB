@@ -1,0 +1,59 @@
+body{
+  background-image: url(carsandfilms/img/fons.jpg);
+  background-size: 20%;
+
+
+}
+
+.cap{
+  height: 500px;
+  background-color: ;
+}
+
+.titol{
+  /*line-height: 2rem;*/
+  font-family: helvetica;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/*u{
+  font-family: helvetica;
+  color: grey;
+  font-size: 4rem;*/
+}
+
+h4{
+  font-family: helvetica;
+  margin-left: 0.5rem;
+}
+.cos{
+  height: 780px;
+  width: 70%;
+  margin-left: 37%;
+  background-color:;
+}
+
+.quadrat1{
+  margin: 0.5rem;
+  height: 240px;
+  background-color: white;
+  display: inline-block;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.quadrat1:hover{
+  opacity: 100%;
+  transform: rotateY(30deg);
+  transform-origin: left;
+}
+
+.peu{
+  height: 220px;
+
+  /*background-image: url(carsandfilms/img/logo_carsandfilms.png);*/
+  background-repeat: no-repeat;
+  margin-left: 50%;
+}

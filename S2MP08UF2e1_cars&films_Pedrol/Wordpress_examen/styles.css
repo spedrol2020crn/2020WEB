@@ -1,0 +1,145 @@
+/*
+Theme Name: sara97-Examendel_dimoni
+Theme URI: https://codepen.io/spedrol-crn/pens/public
+Description: tema M8 wordpress Menú activ.
+Author: Sara Pedrol
+License: Copyleft
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+
+@font-face {
+		font-family: 'LEMON MILK';
+		src:url('fonts/LEMONMILK-Medium.woff2') format('woff2'),
+				url('fonts/LEMONMILK-Medium.woff') format('woff'),
+				url('fonts/LEMONMILK-Medium.ttf') format('ttf'),
+				url('fonts/LEMONMILK-Medium.eot') format('eot'),
+				url('fonts/LEMONMILK-Medium.svg') format('svg');
+		font-weight: 500;
+		font-style: normal;
+		font-display: swap;
+}
+
+@font-face {
+		font-family: 'Chapaza';
+		src:url('fonts/Chapaza-Regular.woff2') format('woff2'),
+				url('fonts/Chapaza-Regular.woff') format('woff'),
+				url('fonts/Chapaza-Regular.ttf') format('ttf'),
+				url('fonts/Chapaza-Regular.eot') format('eot'),
+				url('fonts/Chapaza-Regular.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+}
+
+/*@font-face {
+		font-family: 'TT Norms';
+		src: url('TTNorms-ExtraBold.eot');
+		src: url('TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+				url('TTNorms-ExtraBold.woff2') format('woff2'),
+				url('TTNorms-ExtraBold.woff') format('woff'),
+				url('TTNorms-ExtraBold.ttf') format('truetype'),
+				url('TTNorms-ExtraBold.svg#TTNorms-ExtraBold') format('svg');
+		font-weight: 800;
+		font-style: normal;
+		font-display: swap;
+}/*
+
+/*@font-face {
+		font-family: 'Abril Fatface';
+		src:url('fonts/AbrilFatface-Regular.woff2') format('woff2'),
+				url('fonts/AbrilFatface-Regular.woff') format('woff'),
+				url('fonts/AbrilFatface-Regular.ttf') format('ttf'),
+				url('fonts/AbrilFatface-Regular.eot') format('eot'),
+				url('fonts/AbrilFatface-Regular.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+}
+
+@font-face {
+		font-family: 'Butler';
+		src:url('Butler.woff2') format('woff2'),
+				url('Butler.woff') format('woff'),
+				url('Butler.ttf') format('ttf'),
+				url('Butler.eot') format('eot'),
+				url('Butler.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+}*/
+
+
+	body{
+		background-image: url(img/wood1.jpg);
+		background-size: 100%;
+	}
+
+	/*body::before{
+		content: "";
+		position: fixed;
+		background: url(img/wood1.jpg);
+		z-index: -1;
+		height: 150%; width: 150%;
+		filter: blur(0px);
+		backdrop-filter: sepia(90%);
+		background-repeat: repeat-y;
+	}*/
+body{
+  background-image: url(carsandfilms/img/fons.jpg);
+  background-size: 20%;
+
+
+}
+
+.cap{
+  height: 500px;
+  background-color: ;
+}
+
+.titol{
+  /*line-height: 2rem;*/
+  font-family: helvetica;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/*u{
+  font-family: helvetica;
+  color: grey;
+  font-size: 4rem;*/
+}
+
+h4{
+  font-family: helvetica;
+  margin-left: 0.5rem;
+}
+.cos{
+  height: 780px;
+  width: 70%;
+  margin-left: 37%;
+  background-color:;
+}
+
+.quadrat1{
+  margin: 0.5rem;
+  height: 240px;
+  background-color: white;
+  display: inline-block;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.quadrat1:hover{
+  opacity: 100%;
+  transform: rotateY(30deg);
+  transform-origin: left;
+}
+
+.peu{
+  height: 220px;
+
+  /*background-image: url(carsandfilms/img/logo_carsandfilms.png);*/
+  background-repeat: no-repeat;
+  margin-left: 50%;
+}
