@@ -1,5 +1,9 @@
 body{
   margin: 0 auto;
+  margin: 0vh;
+  margin-bottom: 0 auto;
+
+
 }
 /*---INICI---*/
 .fons{
@@ -16,7 +20,7 @@ body{
   padding: 0;
   position: absolute;
   top: 45%;
-  left: 45%;
+  left: 39%;
   transform: translate(-45%,-45%);
   animation: fons 4s;
 }
@@ -65,23 +69,22 @@ body{
   cursor: pointer;
   font-size: 1rem;
   margin: 1rem;
-
 }
 
-.iniciar1 {
-  width: 15rem;
+.iniciar2_1{
+  width: 13rem;
   margin: 0 auto;
   position: absolute;
-  bottom: 22rem;
-  left: -3vh;
+  bottom: 20vh;
+  left: 0%;
 }
 
-.reg2 {
-  width: 15rem;
+.reg1_1{
+  width: 13rem;
   margin: 0 auto;
   position: absolute;
-  bottom: 17rem;
-  left: -3vh;
+  bottom: 27vh;
+  left: 0%;
 }
 
 /*---INICIAR---*/
@@ -91,28 +94,25 @@ body{
   height: 100vh;
   background: #000033;
   margin: 0 auto;
-
 }
 
 .logo_logo{
+  width: 15vh;
+  height: 15vh;
   position: absolute;
   top: 45%;
   left: 48%;
   transform: translate(-50%,-50%);
-  width: 15vh;
-  height: 15vh;
 }
 
 .fons_fons{
-  width: 103vh;
-  height: 103vh;
+  width: 100vh;
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
   position: absolute;
-  top: 45%;
-  left: 45%;
-  transform: translate(-45%,-45%);
-
+  top: 0%;
+  left: -56%;
 }
 
 input[type=text] {
@@ -121,13 +121,12 @@ input[type=text] {
   border-radius: 20rem;
   background-color: #B3D7D0;
   opacity: 50%;
-  color: white;
   position: relative;
-  bottom: 31rem;
+  bottom: 21rem;
   left: 15%;
   font-family: lemon milk;
   font-size: 1.7rem;
-
+  text-align: center;
 }
 
 input[type=password] {
@@ -136,50 +135,120 @@ input[type=password] {
   border-radius: 20rem;
   background-color: #FF6EFF;
   opacity: 50%;
-  color: white;
   position: relative;
-  bottom: 35rem;
+  bottom: 21rem;
   left: 15%;
   font-family: lemon milk;
   font-size: 1.7rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 h2{
   color:white;
 }
 
-.iniciar1_2{
+.iniciar2{
   width: 11rem;
   margin: 0 auto;
   position: absolute;
-  bottom: 31.5rem;
-  left: 6vh;
+  bottom: 22rem;
+  left: 47%;
+  opacity: 90%;
   cursor: pointer;
 }
 
-.iniciar1_2:hover {
-  background-image: url(img/iniciar2.svg);
+.reg2{
+  width: 11rem;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 22rem;
+  left: 15%;
+  cursor: pointer;
 }
 
+input::placeholder{
+  color: #000033;
+  opacity: 100%;
+}
 
+.acceptar_1{
+  width: 8rem;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 8.5rem;
+  left: 60%;
+  opacity: 90%;
+  cursor: pointer;
+}
 
-@media screen and (min-width: 1280px)
-{
-    .iniciar1 {
-      width: 15rem;
+@media (min-width: 1280px){
+  body{
+    margin-bottom: 0 auto;
+  }
+/*---INICI---*/
+  .fons{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%,-45%);
+    animation: fons 4s;
+  }
+
+  .iniciar2_1{
+    width: 13rem;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20vh;
+    left: 34%;
+  }
+
+  .reg1_1{
+    width: 13rem;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 27vh;
+    left: 34%;
+  }
+
+/*---INICI---*/
+  .fons_fons{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 0%;
+    left: 23%;
+  }
+
+    .logo_logo{
+      position: absolute;
+      top: 45%;
+      left: 46%;
+      transform: translate(-50%,-50%);
+      width: 15vh;
+      height: 15vh;
+    }
+
+    .iniciar2 {
+      width: 11rem;
       margin: 0 auto;
       position: absolute;
       bottom: 22rem;
-      left: 32vh;
+      left: 46%;
     }
 
     .reg2 {
-      width: 15rem;
+      width: 11rem;
       margin: 0 auto;
       position: absolute;
-      bottom: 17rem;
-      left: 32vh;
+      bottom: 22rem;
+      left: 38.5%;
     }
 
     input[type=text] {
@@ -191,9 +260,9 @@ h2{
       color: white;
       position: relative;
       bottom: 35vh;
-      left: 78vh;
+      left: 38.5%;
       font-family: lemon milk;
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       padding-top: 2vh;
     }
 
@@ -205,18 +274,26 @@ h2{
       opacity: 50%;
       color: white;
       position: relative;
-      bottom: 40vh;
-      left: 78vh;
+      bottom: 29vh;
+      left: 21.5%;
       font-family: lemon milk;
-      font-size: 1.7rem;
+      font-size: 1.5rem;
 
     }
 
-    #iniciar1_2{
-      width: 11rem;
+    input::placeholder{
+      opacity: 100%;
+    }
+
+    .acceptar_1{
+      width: 8rem;
       margin: 0 auto;
       position: absolute;
-      bottom: 31.5rem;
-      left: 79vh;
+      bottom: 9rem;
+      left: 49%;
+      opacity: 90%;
+      cursor: pointer;
     }
+
+
 }
