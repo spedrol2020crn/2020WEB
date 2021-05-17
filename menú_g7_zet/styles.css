@@ -1,0 +1,42 @@
+body{
+  font-family: Montserrat;
+  background: 000033;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-size: monserrat;
+  font-size: 3rem;
+  color: 000033;
+  text-align: center;
+}
+.logo{
+  width: 20rem;
+  height: 20rem;
+  margin: 5rem auto;
+  background-image: url(1.png);
+  background-size: cover;
+}
+
+#web #video{
+  width: 20rem;
+  color:blue;
+}
+
+#web{
+  text-align: center;
+  text-decoration: none;
+}
+
+#video{
+  text-align: center;
+  text-decoration: none;
+}
+
+#apk{
+  text-align: center;
+  text-decoration: none;
+}
