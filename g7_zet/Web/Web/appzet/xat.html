@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>Zet</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/logosquadrats.png">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/sidebar.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="home.html">
+        <img src="iconos/cap_1-01.png" alt="logo" style="width:60px;">
+      </a>
+      <a class="nav-link" href="#"><B>XATS</B></a>
+      <!-- <a class="nav-link" href="#">
+        <img src="iconos/compartir_1-01.png" alt="share" style="width:30px;">
+      </a> -->
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="perfil.html"><img class="img-fluid" src="iconos/perfil_1-01.png"></a>
+      <a href="esports.html"><img class="img-fluid" src="iconos/esports_1-01.png"></a>
+      <a href="crearEsdeveniment.html"><img class="img-fluid" src="iconos/crear_esdev_1-01.png"></a>
+      <a href="buscar.html"><img class="img-fluid" src="iconos/buscar_esdev_1-01.png"></a>
+      <a href="esdevenimentPreferits.html"><img class="img-fluid" src="iconos/esdev_pref_1-01.png"></a>
+      <a href="amics.html"><img class="img-fluid" src="iconos/persones_pref_1-01.png"></a>
+      <a href="xat.html"><img class="img-fluid" src="iconos/xat_1-01.png"></a>
+      <a href="nos.html"><img class="img-fluid" src="iconos/sobre_nosaltres_1-01.png"></a>
+      <a href="atclient.html"><img class="img-fluid" src="iconos/atencio_client_1-01.png"></a>
+      <a href="legal.html"><img class="img-fluid" src="iconos/objectius_1-01.png"></a>
+    </div>
+
+    <div id="main">
+      <button class="openbtn position-fixed" onclick="openNav()">☰</button>
+    </div>
+
+  <br><br>
+
+  <!-- XAT -->
+  <div class="container content">
+    <div class="row">
+      <div class="col-12">
+        <ul class="chat-list">
+          <li class="in">
+            <div class="chat-img">
+              <img alt="Avtar" src="fotosApp/street-workout-2629171_1920.jpg">
+            </div>
+            <div class="chat-body">
+              <div class="chat-message">
+                <h5>Andy Smith</h5>
+                <p>Hola Valentina. Com estàs?
+Com es que no et vas apuntar a Crossfit l’altre dia? Ens ho vam passar molt bé. Hauries d’haver vingut ;(</p>
+              </div>
+            </div>
+          </li>
+          <li class="out">
+            <div class="chat-img">
+              <img alt="Avtar" src="fotosApp/gmb-fitness-ug_onUKP99Q-unsplash.jpg">
+            </div>
+            <div class="chat-body">
+              <div class="chat-message">
+                <h5>Valentina Plaza</h5>
+                <p>Hola Andy. I tu que tal?
+Bé, va tot bé. Com sempre. No hi vaig poder anar pq tenia un compromís. Si a la pròxima hi vas, m’apunto!</p>
+              </div>
+            </div>
+          </li>
+          <li class="in">
+            <div class="chat-img">
+              <img alt="Avtar" src="fotosApp/street-workout-2629171_1920.jpg">
+            </div>
+            <div class="chat-body">
+              <div class="chat-message">
+                <h5 class="name">Andy Smith</h5>
+                <p>Hola Vale. Bé, ocupat com sempre. Però per tu trec temps d’on sigui ;) Me n’alegro que estiguis bé. Vaja :(. Vinga va, a la pròxima no fallem. </p>
+              </div>
+            </div>
+          </li>
+          <li class="out">
+            <div class="chat-img">
+              <img alt="Avtar" src="fotosApp/gmb-fitness-ug_onUKP99Q-unsplash.jpg">
+            </div>
+            <div class="chat-body">
+              <div class="chat-message">
+                <h5>Valentina Plaza</h5>
+                <p>I qui no ho està? jaja ;/
+Escolta Andy, vas molt enfilat tu! ;|
+Sino em surggeix cap altre compromís, d’acord. </p>
+              </div>
+            </div>
+          </li>
+          <li class="in">
+            <div class="chat-img">
+              <img alt="Avtar" src="fotosApp/street-workout-2629171_1920.jpg">
+            </div>
+            <div class="chat-body">
+              <div class="chat-message">
+                <h5 class="name">Andy Smith</h5>
+                <p>Jaja també tens raó :)
+Jo? Que dius? Quina barbaritat!
+D’acord esprem que no. Creuem dits. </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <input type="text" class="form-control" id="write">
+  </div>
+
+</body>
+
+</html>

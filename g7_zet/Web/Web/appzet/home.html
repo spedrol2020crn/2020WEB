@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>Zet</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/logosquadrats.png">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/sidebar.css" rel="stylesheet" />
+
+</head>
+
+<body>
+<div class="fondoblanco">
+
+</div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="iconos/cap_1-01.png" alt="logo" style="width:60px;">
+        </a>
+        <a class="nav-link" href="#"><B>HOME</B></a>
+        <a class="nav-link" href="#">
+            <img src="iconos/compartir_1-01.png" alt="share" style="width:30px;">
+        </a>
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="perfil.html"><img class="img-fluid" src="iconos/perfil_1-01.png"></a>
+        <a href="esports.html"><img class="img-fluid" src="iconos/esports_1-01.png"></a>
+        <a href="crearEsdeveniment.html"><img class="img-fluid" src="iconos/crear_esdev_1-01.png"></a>
+        <a href="buscar.html"><img class="img-fluid" src="iconos/buscar_esdev_1-01.png"></a>
+        <a href="esdevenimentPreferits.html"><img class="img-fluid" src="iconos/esdev_pref_1-01.png"></a>
+        <a href="amics.html"><img class="img-fluid" src="iconos/persones_pref_1-01.png"></a>
+        <a href="xat.html"><img class="img-fluid" src="iconos/xat_1-01.png"></a>
+        <a href="nos.html"><img class="img-fluid" src="iconos/sobre_nosaltres_1-01.png"></a>
+        <a href="atclient.html"><img class="img-fluid" src="iconos/atencio_client_1-01.png"></a>
+        <a href="legal.html"><img class="img-fluid" src="iconos/objectius_1-01.png"></a>
+    </div>
+    <div id="main">
+        <button class="openbtn position-fixed" onclick="openNav()">☰</button>
+    </div>
+
+
+
+    <div class="container">
+
+        <!-- LOGO -->
+
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <img class="img-fluid" src="img/Logos_quadrats/Logos_quadrats-3.png" width="800">
+            </div>
+        </div>
+
+        <!-- SLIDESHOW -->
+
+        <div class="row">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="fotosApp/martial-arts-116543_1920.jpg" alt="Los Angeles" width="800">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fotosApp/cyclists-1851269_1920.jpg" alt="Chicago" width="800">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fotosApp/trail-running-1245982_1920.jpg" alt="New York" width="800">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

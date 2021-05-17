@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<title>Zet</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/logosquadrats.png">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/sidebar.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="home.html">
+        <img src="iconos/cap_1-01.png" alt="logo" style="width:60px;">
+      </a>
+      <a class="nav-link" href="#"><B>CREAR ESDEVENIMENT</B></a>
+      <!-- <a class="nav-link" href="#">
+        <img src="iconos/compartir_1-01.png" alt="share" style="width:30px;">
+      </a> -->
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="perfil.html"><img class="img-fluid" src="iconos/perfil_1-01.png"></a>
+      <a href="esports.html"><img class="img-fluid" src="iconos/esports_1-01.png"></a>
+      <a href="crearEsdeveniment.html"><img class="img-fluid" src="iconos/crear_esdev_1-01.png"></a>
+      <a href="buscar.html"><img class="img-fluid" src="iconos/buscar_esdev_1-01.png"></a>
+      <a href="esdevenimentPreferits.html"><img class="img-fluid" src="iconos/esdev_pref_1-01.png"></a>
+      <a href="amics.html"><img class="img-fluid" src="iconos/persones_pref_1-01.png"></a>
+      <a href="xat.html"><img class="img-fluid" src="iconos/xat_1-01.png"></a>
+      <a href="nos.html"><img class="img-fluid" src="iconos/sobre_nosaltres_1-01.png"></a>
+      <a href="atclient.html"><img class="img-fluid" src="iconos/atencio_client_1-01.png"></a>
+      <a href="legal.html"><img class="img-fluid" src="iconos/objectius_1-01.png"></a>
+    </div>
+
+    <div id="main">
+      <button class="openbtn position-fixed" onclick="openNav()">☰</button>
+    </div>
+
+  <br><br>
+
+
+  <form>
+    <div class="d-flex justify-content-center">
+      <div class="form-group">
+<div class="letrablanca">
+  <label for="comment">DESCRIPCIÓ</label>
+  <textarea class="form-control" rows="5" cols="50">
+</textarea>
+
+  <label>CREAR ESDEVENIMENT:</label>
+  <input type="text" class="form-control">
+
+  <label>DATA ESDEVENIMENT:</label>
+  <input type="date" class="form-control" id="exampleInputBirthDate">
+
+  <label>HORA:</label>
+  <input type="time" class="form-control">
+
+  <label>UBICACIÓ:</label>
+  <input type="text" class="form-control">
+
+  <label>AFORAMENT:</label>
+  <input type="text" class="form-control">
+
+  <label>DATA ESDEVENIMENT:</label>
+  <input type="date" class="form-control" id="exampleInputBirthDate">
+
+  <label>HORA:</label>
+  <input type="time" class="form-control">
+
+  <label>UBICACIÓ:</label>
+  <input type="text" class="form-control">
+
+  <label>AFORAMENT:</label>
+</div>
+
+        <br>
+
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+        <label class="btn btn-secondary" for="option1">50%</label>
+
+        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+        <label class="btn btn-secondary" for="option2">70%</label>
+
+        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+        <label class="btn btn-secondary" for="option4">100%</label>
+
+        <br><br>
+<div class="letrablanca">
+    <label>ESPORTS:</label>
+</div>
+        <div class="d-flex justify-content-center">
+          <div class="btn-group-vertical btn-group-lg">
+            <button type="button" class="btn btn-primary">FUTBOL</button>
+            <button type="button" class="btn btn-primary">BASQUETBOL</button>
+            <button type="button" class="btn btn-primary">TENNIS</button>
+            <button type="button" class="btn btn-primary">PÀDEL</button>
+            <button type="button" class="btn btn-primary">SENDERISME</button>
+
+          </div>
+
+          <div class="d-flex justify-content-center">
+            <div class="btn-group-vertical btn-group-lg">
+              <button type="button" class="btn btn-primary">ESCALADA</button>
+              <button type="button" class="btn btn-primary">BASEBALL</button>
+              <button type="button" class="btn btn-primary">CICLISME</button>
+              <button type="button" class="btn btn-primary">MOTOCICLISME</button>
+              <button type="button" class="btn btn-primary">RUGBY</button>
+            </div>
+          </div>
+        </div>
+<div class="letrablanca">
+    <label>MAX PERSONES:</label>
+</div>
+        <input type="number" class="form-control">
+
+        <br><br>
+
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary">CREAR</button>
+        </div>
+
+      </div>
+
+
+
+  </form>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<title>Zet</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/logosquadrats.png">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/sidebar.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+
+  </head>
+
+  <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+          <!-- Brand/logo -->
+          <a class="navbar-brand" href="home.html">
+            <img src="iconos/cap_1-01.png" alt="logo" style="width:60px;">
+          </a>
+          <a class="nav-link" href="#"><B>ATENCIÓ AL CLIENT</B></a>
+          <!-- <a class="nav-link" href="#">
+            <img src="iconos/compartir_1-01.png" alt="share" style="width:30px;">
+          </a> -->
+        </nav>
+
+        <!-- SIDEBAR -->
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="perfil.html"><img class="img-fluid" src="iconos/perfil_1-01.png"></a>
+          <a href="esports.html"><img class="img-fluid" src="iconos/esports_1-01.png"></a>
+          <a href="crearEsdeveniment.html"><img class="img-fluid" src="iconos/crear_esdev_1-01.png"></a>
+          <a href="buscar.html"><img class="img-fluid" src="iconos/buscar_esdev_1-01.png"></a>
+          <a href="esdevenimentPreferits.html"><img class="img-fluid" src="iconos/esdev_pref_1-01.png"></a>
+          <a href="amics.html"><img class="img-fluid" src="iconos/persones_pref_1-01.png"></a>
+          <a href="xat.html"><img class="img-fluid" src="iconos/xat_1-01.png"></a>
+          <a href="nos.html"><img class="img-fluid" src="iconos/sobre_nosaltres_1-01.png"></a>
+          <a href="atclient.html"><img class="img-fluid" src="iconos/atencio_client_1-01.png"></a>
+          <a href="legal.html"><img class="img-fluid" src="iconos/objectius_1-01.png"></a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn position-fixed" onclick="openNav()">☰</button>
+        </div>
+
+      <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-center">
+        <div class="row g-0">
+          <div class="col-md-1">
+            <img src="img/Logos_quadrats/Logos_quadrats-3.png" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-md-8 rounded-pill" style="background-color: #666699; padding: 10px;">
+            <div class="card-body">
+              <div class="letrablanca">
+                    <h5 class="card-title">FORMULARIS</h5>
+              </div>
+              <p class="card-text" style="color: white">Per qualsevol dubte o problema. Pots enviar-nos un formulari a continuació. Tant ràpid el veiem, us respondrem. </p>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+
+        <div class="card mb-5" style=" padding:10px;">
+          <form>
+
+            <div class="card mb-5" style=" padding:10px;">
+
+              <div class="input-group mb-3">
+                <input type="email" class="form-control">
+                <span class="input-group-text">@</span>
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" placeholder="ESCRIBA AQUI SU MENSAJE"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="margin-top: 10px;">ACCEPTAR</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="card mb-5" style=" padding:10px;">
+          <label>ADREÇES ELECTRONIQUES</label>
+          <div class="form-group card">
+
+            <ul>
+              <Li>
+                DUBTES: dubtes@zet.cat
+              </Li>
+              <Li>
+                SORTEJOS: sortejos@zet.cat
+              </Li>
+              <Li>
+                PROBLEMES: problemes@zet.cat
+              </Li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mb-5" style=" padding:10px;">
+          <label>XARXES SOCIALS</label>
+          <div class="form-group card">
+
+            <ul>
+              <Li>
+                INSTAGRAM: zet.cat
+              </Li>
+              <Li>
+                TIKTOK: zet.cat
+              </Li>
+              <Li>
+                TWITTER: zet.cat
+              </Li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
